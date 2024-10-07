@@ -328,6 +328,14 @@ def register_minigrid_envs():
         entry_point="minigrid.envs:LockedRoomEnv",
     )
 
+    # OneWayRoom
+    # ----------------------------------------
+
+    register(
+        id="MiniGrid-OneWayRoom-v0",
+        entry_point="minigrid.envs:OneWayRoomEnv",
+    )
+
     # Memory
     # ----------------------------------------
 
